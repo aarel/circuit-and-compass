@@ -1,0 +1,15 @@
+{
+  "name": "circuit-and-compass",
+  "version": "0.1.0",
+  "description": "Circuit & Compass microsite and playbooks",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

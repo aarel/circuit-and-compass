@@ -1,0 +1,8 @@
+[build]
+  command = ""
+  publish = "."
+
+[dev]
+  command = "npm run dev"
+  port = 4173
+  framework = "#static"

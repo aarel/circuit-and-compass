@@ -1,0 +1,34 @@
+0 verbose cli /home/aarel/.nvm/versions/node/v20.19.5/bin/node /home/aarel/.nvm/versions/node/v20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/mnt/c/Users/aarel/Documents/coding/circuit-and-compass/.npmrc
+5 silly config load:file:/home/aarel/.npmrc
+6 silly config load:file:/home/aarel/.nvm/versions/node/v20.19.5/etc/npmrc
+7 verbose title npm audit fix
+8 verbose argv "audit" "fix" "--force"
+9 verbose logfile logs-max:10 dir:/home/aarel/.npm/_logs/2025-11-20T21_52_36_915Z-
+10 verbose logfile /home/aarel/.npm/_logs/2025-11-20T21_52_36_915Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile start cleaning logs, removing 1 files
+14 silly logfile done cleaning log files
+15 verbose stack Error: loadVirtual requires existing shrinkwrap file
+15 verbose stack     at Arborist.loadVirtual (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/load-virtual.js:51:18)
+15 verbose stack     at async Arborist.audit (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/index.js:241:14)
+15 verbose stack     at async Audit.auditAdvisories (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/commands/audit.js:69:5)
+15 verbose stack     at async Audit.exec (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/commands/audit.js:49:7)
+15 verbose stack     at async Npm.exec (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/npm.js:207:9)
+15 verbose stack     at async module.exports (/home/aarel/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/cli/entry.js:74:5)
+16 error code ENOLOCK
+17 error audit This command requires an existing lockfile.
+18 error audit Try creating one first with: npm i --package-lock-only
+19 error audit Original error: loadVirtual requires existing shrinkwrap file
+20 silly unfinished npm timer audit 1763675557082
+21 verbose cwd /mnt/c/Users/aarel/Documents/coding/circuit-and-compass
+22 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+23 verbose node v20.19.5
+24 verbose npm  v10.8.2
+25 verbose exit 1
+26 verbose code 1
+27 error A complete log of this run can be found in: /home/aarel/.npm/_logs/2025-11-20T21_52_36_915Z-debug-0.log
